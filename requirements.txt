@@ -1,0 +1,20 @@
+# Requirements for account-verification-django
+
+# Django (1.8 is a long-term support release)
+Django==1.8.*
+
+# Third-party app dependencies
+authy==2.1.3
+django-bootstrap3==6.2.2
+django-forms-bootstrap==3.0.1
+django-phonenumber-field==1.0.0
+psycopg2==2.6.1
+whitenoise==2.0.6
+
+# Production dependencies
+gunicorn==19.4.1
+
+# Test dependencies
+coverage==4.0.3
+mock==1.3.0
+model-mommy==1.2.6
